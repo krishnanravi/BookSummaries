@@ -303,7 +303,7 @@ Detect current processing timestamp to compare to recently available data timest
 lag_metric = last_available_unit - current_processing_unit
 You can compute lag_metric for all partitions and check the P90, P95, P99, etc. to detect outliers. Note: Average could be misleading to detect outliers.
 
-#### SLA Misses Detector
+#### Pattern: SLA Misses Detector
 Problem: Detecting when data processing does not meet SLA requirements.
 
 Batch Job: If the processing time of a job exceeds allowable time, it is considered a miss.
